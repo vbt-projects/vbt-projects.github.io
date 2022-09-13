@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src= "https://code.jquery.com/jquery-3.5.1.js"></script> 
+
+    <title>For If You Miss Me</title>
+
+    <div>
+        <h1>For If You Miss Me</h1>
+    </div>
+
+    <link rel="stylesheet" media="screen and (min-width: 900px)" href="widestyle.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallstyle.css">
+
+    <hr>
+    <div id="navbar">
+        <a href="index.html" class="selected">Home</a>
+        <a href="music.html">Music</a>
+        <a href="pictures.html">Gallery</a>
+    </div>
+    <hr>
+</head>
+
+<body>
+    <div id="introslide">
+        <h1 id="introslide-text">Miss me?</h1>
+        <img src="/pictures/IMG_9895.JPG" id="intropic">
+        <button id="exitPopUp"><i>&#8594;</i></button>
+    </div>
+
+    <div id="letter">
+        <br><br>
+        <h2>Hello there.</h2>
+        <p id="intro">I made this website (wow I'm so cool) for you to visit just in case 
+            you end up missing me while I'm at Stanford (wow that's a very cool thing to type :) )
+            Enjoy!</p>
+        <img src="/pictures/map.png" id="map">
+    </div>
+
+    <br><br><hr class="light"><br>
+
+    <div id="thanksgiving-break-countdown" class="countdown">
+        <h2>Countdown Until Thanksgiving Break</h2>
+        <script src="https://cdn.logwork.com/widget/countdown.js"></script>
+        <a href="https://logwork.com/countdown-w4cs" class="countdown-timer" data-style="circles" 
+        data-timezone="America/Los_Angeles" 
+        data-textcolor="#fffbf9" data-date="2022-11-21 00:00" 
+        data-background="#b39c8f" data-digitscolor="#593a01" 
+        data-unitscolor="#593a01">Countdown</a>
+    </div>
+    <br><br><hr class="light"><br>
+
+    <div id="christmas-break-countdown" class="countdown">
+        <h2>Countdown Until Christmas Break</h2>
+        <script src="https://cdn.logwork.com/widget/countdown.js"></script>
+        <a href="https://logwork.com/countdown-w4cs" class="countdown-timer" data-style="circles" 
+        data-timezone="America/Los_Angeles" 
+        data-textcolor="#fffbf9" data-date="2022-12-17 00:00" 
+        data-background="#b39c8f" data-digitscolor="#593a01" 
+        data-unitscolor="#593a01">Countdown</a>
+    </div>
+    <br><br><hr class="light"><br>
+
+    <div id="spring-break-countdown" class="countdown">
+        <h2>Countdown Until Spring Break</h2>
+        <script src="https://cdn.logwork.com/widget/countdown.js"></script>
+        <a href="https://logwork.com/countdown-w4cs" class="countdown-timer" data-style="circles" 
+        data-timezone="America/Los_Angeles" 
+        data-textcolor="#fffbf9" data-date="2023-03-25 00:00" 
+        data-background="#b39c8f" data-digitscolor="#593a01" 
+        data-unitscolor="#593a01">Countdown</a>
+    </div>
+    <br><br><hr class="light"><br>
+
+    <div id="birthday-countdown" class="countdown">
+        <h2>Countdown Until My Birthday (so that you can start buying presents)</h2>
+        <script src="https://cdn.logwork.com/widget/countdown.js"></script>
+        <a href="https://logwork.com/countdown-w4cs" class="countdown-timer" data-style="circles" 
+        data-timezone="America/Los_Angeles" 
+        data-textcolor="#fffbf9" data-date="2023-05-21 07:00" 
+        data-background="#b39c8f" data-digitscolor="#593a01" 
+        data-unitscolor="#593a01">Countdown</a>
+    </div>
+    <br><br><hr class="light"><br>
+
+    <div id="summer-break-countdown" class="countdown">
+        <h2>Countdown Until Summer Break</h2>
+        <script src="https://cdn.logwork.com/widget/countdown.js"></script>
+        <a href="https://logwork.com/countdown-w4cs" class="countdown-timer" data-style="circles" 
+        data-timezone="America/Los_Angeles" 
+        data-textcolor="#fffbf9" data-date="2023-06-14 00:00" 
+        data-background="#b39c8f" data-digitscolor="#593a01" 
+        data-unitscolor="#593a01">Countdown</a>
+    </div>
+    <br><br><hr class="light"><br>
+</body>
+
+<script type="module">
+    $(document).ready(function(event) {
+        function popUp() {
+            document.getElementById("introslide").style.display = "block";
+        }
+
+        function removePopUp() {
+            document.getElementById("introslide").style.display = "none";
+        }
+
+        document.getElementById("exitPopUp").addEventListener("click", removePopUp)
+    })
+</script>
+
+
+</html>

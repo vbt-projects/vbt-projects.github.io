@@ -1,0 +1,190 @@
+body {
+    background-color: #FFFBF9;
+    /* background-color: blueviolet; */
+    font-family: 'Italiana', serif;
+    color: #4F3E37;
+}
+
+@font-face {
+    font-family: 'Italiana';
+    src: url(fonts/Italiana-Regular.ttf);
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 15px;
+}
+
+p {
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+#introslide {
+    z-index: 1;
+    text-align: center;
+    vertical-align: middle;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #FFFBF9;
+    width: 100vw;
+    height: 100vh;
+}
+
+#introslide-text {
+    margin-top: 180px;
+}
+
+#intropic {
+    width: 80%;
+    border-radius: 60px;
+}
+
+#navbar {
+    text-align: center;
+    overflow: hidden;
+}
+
+#navbar a {
+    font-family: 'Italiana', serif;
+    font-size: 30px;
+    text-align: center;
+    color: #4F3E37;
+    padding: 20px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+#navbar .selected {
+    font-style: oblique;
+}
+
+#intro {
+    width: 90%;
+}
+
+hr {
+    color:#4F3E37;
+}
+
+hr.light {
+    color: #e2deda;
+    border: solid 0.5px;
+}
+
+.countdown {
+    z-index:0;
+}
+
+#exitPopUp {
+    margin-left: 70%;
+    background-color: #FFFBF9;
+    color: #4F3E37;
+    border: none;
+    font-size: 50px;
+}
+
+#exitPopUp:hover {
+    text-shadow: 2px 2px 5px #e2deda;
+    cursor: pointer;
+}
+
+#exitPopUp:active {
+    text-shadow: 2px 2px 5px #e2deda;
+    transform: translate(2px, 2px);
+}
+
+audio {
+    margin-left: 15%;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #ccbfba;
+}
+
+audio::-webkit-media-controls-current-time-display {
+    font-family: 'Italiana', serif;
+    font-size: 17px;
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+    font-family: 'Italiana', serif;
+    font-size: 17px;
+}
+
+.composer {
+    font-size: 20px;
+    font-style: italic;
+    margin-top: -25px;
+    color: #4F3E37;
+}
+
+#musictable {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#musictable th, td {
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+#waves {
+    margin-left: -180px;
+    height: 1300px;
+    opacity: 0.12;
+    position: absolute;
+}
+
+#posepic {
+    height: 500px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 32%;
+    max-width: 32%;
+    padding: 0 2px;
+}
+
+.col img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+#letter {
+    display: inline-block;
+}
+
+#letter h1 {
+    float: left;
+}
+
+#letter p {
+    float: left;
+}
+
+#map {
+    height: 300px;
+    display: block;
+    margin-left: 15%
+}
