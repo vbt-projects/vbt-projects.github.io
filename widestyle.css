@@ -166,27 +166,6 @@ audio::-webkit-media-controls-time-remaining-display {
     position: absolute;
 }
 
-#posepic {
-    height: 500px;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.col {
-    flex: 32%;
-    max-width: 33%;
-    padding: 0 3px;
-}
-
-.col img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-}
-
 #letter {
     display: inline-block;
 }
@@ -204,4 +183,8 @@ audio::-webkit-media-controls-time-remaining-display {
     float: right;
     margin-left: 200px;
     margin-top: -125px;
+}
+
+#box {
+    margin-left: 250px;
 }
